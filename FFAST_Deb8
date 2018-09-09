@@ -615,3 +615,5 @@ echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-in
 echo ""  | tee -a log-install.txt
 echo "----------- Script Created By Steven Indarto(fb.com/stevenindarto2) ------------"
 echo "------------------------------ Modified by Rey ---------------------------------"
+read -n1 -r -p "          Press Any Key To Show Commands          "
+menu
