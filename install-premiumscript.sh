@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by 0123456
+# Modified by Rey
 
 cd
 sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
@@ -21,7 +21,7 @@ cat > /root/limit.sh <<END3
 END3
 
 cd /usr/local/bin
-wget -O premium-script.tar.gz "https://raw.githubusercontent.com/daybreakersx/premscript/master/premium-script.tar.gz"
+wget -O premium-script.tar.gz "https://raw.githubusercontent.com/reyluar18/premscript/master/premium-script.tar.gz"
 tar -xvf premium-script.tar.gz
 rm -f premium-script.tar.gz
 
@@ -74,10 +74,19 @@ screen -AmdS limit /root/limit.sh
 screen -AmdS ban /root/ban.sh
 clear
 cd
-echo " "
-echo " "
+
+echo	@@@@@@@@  @@@@@@@@   @@@@@@    @@@@@@   @@@@@@@  
+echo	@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@   @@@@@@@  
+echo	@@!       @@!       @@!  @@@  !@@         @@!    
+echo	!@!       !@!       !@!  @!@  !@!         !@!    
+echo	@!!!:!    @!!!:!    @!@!@!@!  !!@@!!      @!!    
+echo	!!!!!:    !!!!!:    !!!@!!!!   !!@!!!     !!!    
+echo	!!:       !!:       !!:  !!!       !:!    !!:    
+echo	:!:       :!:       :!:  !:!      !:!     :!:    
+echo	 ::        ::       ::   :::  :::: ::      ::    
+echo	 :         :         :   : :  :: : :       :     
 echo "Premium Script Successfully Installed!"
 echo "Restarting all services..."
 echo "Wait for a few minutes..."
-echo "Modified by 0123456"
+echo "Modified by reyluar18"
 echo " "
