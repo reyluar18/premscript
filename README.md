@@ -6,25 +6,25 @@ Premium autoscript installer used to install SSH, STUNNEL, OVPN, and PPTP VPN on
 
 - Centos 6 x86 & x64
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/Centos6 && chmod +x Centos6 && ./Centos6 && rm -f Centos6 && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Centos6 && chmod +x FFAST_Centos6 && ./FFAST_Centos6 && rm -f FFAST_Centos6 && history -c`
 
 
 
 - Centos 7 (OVPN not included)
 
-`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/Centos7 && chmod +x Centos7 && ./Centos7 && rm -f Centos7 && history -c`
+`yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Centos7 && chmod +x FFAST_Centos7 && ./FFAST_Centos7 && rm -f FFAST_Centos7 && history -c`
 
 
 
 - Debian 7 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/Debian7 && chmod +x Debian7 && ./Debian7 && rm -f Debian7 && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Debian7 && chmod +x FFAST_Debian7 && ./FFAST_Debian7 && rm -f FFAST_Debian7 && history -c`
 
 
 
 - Debian 8 x86 & x64
 
-`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/Debian8 && chmod +x Debian8 && ./Debian8 && rm -f Debian8 && history -c`
+`apt-get -y install wget && wget https://raw.githubusercontent.com/reyluar18/premscript/master/FFAST_Debian8 && chmod +x FFAST_Debian8 && ./FFAST_Debian8 && rm -f FFAST_Debian8 && history -c`
 
 
 
