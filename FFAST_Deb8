@@ -57,6 +57,24 @@ apt-get -y remove sendmail*
 # update
 apt-get update; apt-get -y upgrade;
 
+echo "clear"                                                            	     >> .bashrc
+echo 'echo -e "\e[0m                                                  		  "' >> .bashrc
+echo 'echo -e "\e[94m    @@@@@@@@  @@@@@@@@   @@@@@@    @@@@@@   @@@@@@@   	  "' >> .bashrc
+echo 'echo -e "\e[94m    @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@   @@@@@@@   	  "' >> .bashrc
+echo 'echo -e "\e[94m    @@!       @@!       @@!  @@@  !@@         @@!    	  "' >> .bashrc
+echo 'echo -e "\e[94m    !@!       !@!       !@!  @!@  !@!         !@!       	 "' >> .bashrc
+echo 'echo -e "\e[94m    @!!!:!    @!!!:!    @!@!@!@!  !!@@!!      @!!      	  "' >> .bashrc
+echo 'echo -e "\e[94m    !!!!!:    !!!!!:    !!!@!!!!   !!@!!!     !!!      	  "' >> .bashrc
+echo 'echo -e "\e[94m    !!:       !!:       !!:  !!!       !:!    !!:      	  "' >> .bashrc
+echo 'echo -e "\e[94m    :!:       :!:       :!:  !:!      !:!     :!:      	  "' >> .bashrc
+echo 'echo -e "\e[94m    ::        ::       ::   :::  :::: ::      ::      	  "' >> .bashrc
+echo 'echo -e "\e[94m    :         :         :   : :  :: : :       :        	  "' >> .bashrc
+echo 'echo -e "\e[94m           Script created by  reyluar018	            	  "' >> .bashrc
+echo 'echo -e "\e[0m"'                                                  	     >> .bashrc
+echo 'echo -e "\e[94m               Freenet Fast Alliance           		  "' >> .bashrc
+echo 'echo -e "\e[0m                                                   		  "' >> .bashrc
+
+
 # install webserver
 apt-get -y install nginx php5-fpm php5-cli
 
