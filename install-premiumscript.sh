@@ -28,6 +28,10 @@ rm -f premium-script.tar.gz
 cp /usr/local/bin/premium-script /usr/local/bin/menu
 
 chmod +x /usr/local/bin/trial
+chmod +x /usr/local/bin/ffast_others
+chmod +x /usr/local/bin/ffast_pptp
+chmod +x /usr/local/bin/ffast_sshovpn
+chmod +x /usr/local/bin/ffast_vpssection
 chmod +x /usr/local/bin/user-add
 chmod +x /usr/local/bin/user-aktif
 chmod +x /usr/local/bin/user-ban
