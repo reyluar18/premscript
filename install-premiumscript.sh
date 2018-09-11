@@ -79,18 +79,22 @@ screen -AmdS ban /root/ban.sh
 clear
 cd
 
-echo	@@@@@@@@  @@@@@@@@   @@@@@@    @@@@@@   @@@@@@@  
-echo	@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@   @@@@@@@  
-echo	@@!       @@!       @@!  @@@  !@@         @@!    
-echo	!@!       !@!       !@!  @!@  !@!         !@!    
-echo	@!!!:!    @!!!:!    @!@!@!@!  !!@@!!      @!!    
-echo	!!!!!:    !!!!!:    !!!@!!!!   !!@!!!     !!!    
-echo	!!:       !!:       !!:  !!!       !:!    !!:    
-echo	:!:       :!:       :!:  !:!      !:!     :!:    
-echo	 ::        ::       ::   :::  :::: ::      ::    
-echo	 :         :         :   : :  :: : :       :     
-echo "Premium Script Successfully Installed!"
-echo "Restarting all services..."
-echo "Wait for a few minutes..."
-echo "Modified by reyluar18"
-echo " "
+echo "clear"                                                            	   
+echo -e "\e[0m                                                  		  "
+echo -e "\e[94m    @@@@@@@@  @@@@@@@@   @@@@@@    @@@@@@   @@@@@@@   	  "
+echo -e "\e[94m    @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@   @@@@@@@   	  "
+echo -e "\e[94m    @@!       @@!       @@!  @@@  !@@         @@!    	  "
+echo -e "\e[94m    !@!       !@!       !@!  @!@  !@!         !@!        "
+echo -e "\e[94m    @!!!:!    @!!!:!    @!@!@!@!  !!@@!!      @!!        "
+echo -e "\e[94m    !!!!!:    !!!!!:    !!!@!!!!   !!@!!!     !!!        "
+echo -e "\e[94m    !!:       !!:       !!:  !!!       !:!    !!:        "
+echo -e "\e[94m    :!:       :!:       :!:  !:!      !:!     :!:        "
+echo -e "\e[94m    ::        ::       ::   :::  :::: ::      ::      	  "
+echo -e "\e[94m    :         :         :   : :  :: : :       :          "
+echo -e "\e[93m           Premium Script Successfully Installed!	              "
+echo -e "\e[93m           Restarting all services...	              "
+echo -e "\e[93m           Wait for a few minutes...	              "
+echo -e "\e[93m           Script created by  reyluar018	              "
+echo -e "\e[0m"
+echo 
+
