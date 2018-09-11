@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by 0123456
+# Modified by Rey
 
 cd
 sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
@@ -21,13 +21,17 @@ cat > /root/limit.sh <<END3
 END3
 
 cd /usr/local/bin
-wget -O premium-script.tar.gz "https://raw.githubusercontent.com/daybreakersx/premscript/master/updates/premium-script.tar.gz"
+wget -O premium-script.tar.gz "https://raw.githubusercontent.com/reyluar18/premscript/master/premium-script.tar.gz"
 tar -xvf premium-script.tar.gz
 rm -f premium-script.tar.gz
 
 cp /usr/local/bin/premium-script /usr/local/bin/menu
 
 chmod +x /usr/local/bin/trial
+chmod +x /usr/local/bin/ffast_others
+chmod +x /usr/local/bin/ffast_pptp
+chmod +x /usr/local/bin/ffast_sshovpn
+chmod +x /usr/local/bin/ffast_vpssection
 chmod +x /usr/local/bin/user-add
 chmod +x /usr/local/bin/user-aktif
 chmod +x /usr/local/bin/user-ban
@@ -74,6 +78,7 @@ screen -AmdS limit /root/limit.sh
 screen -AmdS ban /root/ban.sh
 clear
 cd
+
 echo "clear"                                                            	   
 echo -e "\e[0m                                                  		  "
 echo -e "\e[94m    @@@@@@@@  @@@@@@@@   @@@@@@    @@@@@@   @@@@@@@   	  "
@@ -86,5 +91,10 @@ echo -e "\e[94m    !!:       !!:       !!:  !!!       !:!    !!:        "
 echo -e "\e[94m    :!:       :!:       :!:  !:!      !:!     :!:        "
 echo -e "\e[94m    ::        ::       ::   :::  :::: ::      ::      	  "
 echo -e "\e[94m    :         :         :   : :  :: : :       :          "
-echo -e "\e[93m        Updated Script created by  reyluar018	         "
+echo -e "\e[93m           Premium Script Successfully Installed!	              "
+echo -e "\e[93m           Restarting all services...	              "
+echo -e "\e[93m           Wait for a few minutes...	              "
+echo -e "\e[93m           Script created by  reyluar018	              "
 echo -e "\e[0m"
+echo 
+
